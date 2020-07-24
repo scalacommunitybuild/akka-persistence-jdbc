@@ -4,7 +4,7 @@ import akka.persistence.query.{ EventEnvelope, NoOffset, Sequence }
 import akka.pattern._
 import com.typesafe.config.ConfigFactory
 import org.scalactic.source.Position
-import org.scalatest.Matchers
+import org.scalatest.matchers.should.Matchers
 
 import scala.concurrent.duration._
 

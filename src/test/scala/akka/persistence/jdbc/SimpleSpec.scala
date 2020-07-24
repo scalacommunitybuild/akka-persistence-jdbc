@@ -22,8 +22,8 @@ import akka.testkit.TestProbe
 import org.scalatest._
 import org.scalatest.concurrent.{ Eventually, ScalaFutures }
 
-trait SimpleSpec extends FlatSpec
-  with Matchers
+trait SimpleSpec extends flatspec.AnyFlatSpec
+  with matchers.should.Matchers
   with ScalaFutures
   with TryValues
   with OptionValues

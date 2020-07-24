@@ -48,7 +48,7 @@ object ProjectAutoPlugin extends AutoPlugin {
 
     fork in Test := true,
 
-    scalariformAutoformat := true,
+    scalariformAutoformat := false,
 
     logBuffered in Test := false,
 
